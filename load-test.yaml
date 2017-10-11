@@ -1,0 +1,9 @@
+config:
+    target: "http://localhost:8000"
+    phases:
+      - duration: 60000
+        arrivalRate: 20
+scenarios:
+  - engine: "socketio"
+    flow:
+      - think: 600
